@@ -30,7 +30,6 @@ Thumbs.db
 
 # Other files
 *.bak
-*.txt
 
 #
 venv
