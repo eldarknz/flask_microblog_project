@@ -16,8 +16,8 @@
             {% for error in form.password.errors %}
             <div class="invalid-feedback">{{ error }}</div>
             {% endfor %}
-            <div class="mb-3">
-              {{ form.remember_me() }} {{ form.remember_me.label }}
+            <div class="my-3">
+              {{ form.remember_me() }} {{ form.remember_me.label(class_='my-0') }}
             </div>
             {{ form.submit( class_='btn btn-lg btn-primary btn-block' ) }}
         </form>
