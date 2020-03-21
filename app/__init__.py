@@ -17,5 +17,6 @@ migrate  = Migrate(app_inst, db)
 # login
 login            = LoginManager(app_inst)
 login.login_view = 'login'
+login.login_message = 'Please log in to access this page'
 
 from app import routes, models
